@@ -1,0 +1,23 @@
+{
+  "name": "legacy-angularjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx http-server -c-1 -p 4201",
+    "test": "cross-env CHROME_BIN=\"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe\" karma start karma.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "angular": "^1.8.2",
+    "angular-mocks": "^1.8.2",
+    "cross-env": "^10.1.0",
+    "jasmine-core": "^4.5.0",
+    "karma": "^6.4.0",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-jasmine": "^5.1.0"
+  }
+}

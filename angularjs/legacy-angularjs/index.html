@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="legacyApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Legacy AngularJs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+        <script src="app.js"></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            .card {
+                padding: 1rem;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+            }
+            .row {
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+            }
+
+            .icon {
+                font-size: 1.25rem;
+            }
+            label {
+                font-weight: 600;
+            }
+            select {
+                padding: 0.5rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>AngularJS App</h1>
+        <hello-legacy name="'Devashish'"></hello-legacy>
+        <gender-display gender="'male'"></gender-display>
+        <api-demo name="'Devashish'"></api-demo>
+    </body>
+</html>
