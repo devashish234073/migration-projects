@@ -2,11 +2,9 @@ package com.example.dao;
 
 import com.example.entity.User;
 import org.hibernate.SessionFactory;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public class UserDao {
     private SessionFactory sessionFactory;
 
