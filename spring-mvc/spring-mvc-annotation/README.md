@@ -1,6 +1,8 @@
  # spring-mvc-annotation
 
- This README maps the original XML configuration files to the Java configuration files created during the migration to annotation-based Spring configuration, describes the changes made to `web.xml`, and provides run and runtime details.
+ This is annotation based migration for the https://github.com/devashish234073/migration-projects/tree/main/spring-mvc/spring-mvc-xml
+
+ here are some of the changes done from xml to java
 
  ## XML → Java mapping
 
@@ -83,6 +85,3 @@
  2. `RootConfig` uses `@ComponentScan` to discover `@Service`, `@Repository`, and other components.
  3. `SecurityConfig` provides the in-memory users and HTTP security rules.
  4. `PersistenceConfig` configures HikariCP, `LocalSessionFactoryBean`, and transaction manager for Hibernate.
-
- If you want further updates (Docker, CI, REST endpoints, or validations), tell me which you'd like next.
-

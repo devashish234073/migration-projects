@@ -61,5 +61,3 @@ Key dependencies (see `pom.xml`):
 
 - All application wiring (beans, security, ORM) is performed via the XML configuration files listed above.
 - To change server/plugin behavior, edit `pom.xml` plugin configuration.
-
-If you'd like, I can also add a brief developer quickstart (build, package, run) or a small troubleshooting section. Let me know which you'd prefer next.
